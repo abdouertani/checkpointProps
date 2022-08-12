@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Profile from './profile/profile';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+     <Profile user='Zemmel' fullname="Sidi Lmo3" bio=" touskiye informatik" profession=" tilmith">
+        
+        </Profile> 
+         </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
